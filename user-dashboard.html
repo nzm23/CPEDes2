@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open-sans">
-    <title>DASHBOARD</title>
+    <title>USER DASHBOARD</title>
 </head>
 <body>
     <header>
@@ -25,27 +25,31 @@
                 </li>
                 <li>
                     <a href="index.html">Logout</a>
-                </li>
+                </li> 
             </ul>
         </nav>
     </header>
 
-    <main class="dashboard">
-        <div class="dashboard-container">
-
-            <div class="dashboard-welcome">
-                <h1 class="dashboard-header">Welcome, <span class="dashboard-user">*insert code here for name*</span>!</h1>
-                <p class="dashboard-instruction">
-                    Please select a database to access...
-                </p>
+    <main class="user-dashboard">
+        <div class="user-container">
+            <div class="user-information row">
+                <img src="" alt="" class="user-pic">
+                <div class="user-details">
+                    <p class="user-name">Name</p>
+                    <p class="birth-date">Birth Date:</p>
+                    <p class="age">Age:</p>
+                    <p class="id-num">ID No.:</p>
+                </div>
             </div>
-    
-            <div class="dashboard-options">
-                <button type="submit" class="gen-button" id="">User 1</button>
-                <button type="submit" class="gen-button" id="">User 2</button>
-                <button type="submit" class="gen-button" id="">User 3</button>
-            </div> 
+
+            <h3 class="center">Records</h3>
+            <div class="user-records row">
+                <button type="submit" class="gen-button" id="">mm/dd/yy</button>
+                <button type="submit" class="gen-button" id="">mm/dd/yy</button>
+                <button type="submit" class="gen-button" id="">mm/dd/yy</button>
+            </div>
         </div>
+ 
     </main>
 </body>
 </html>
